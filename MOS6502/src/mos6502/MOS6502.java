@@ -7,4 +7,12 @@ public class MOS6502 {
 	private byte SP;
 	private byte PC;
 	private byte F;
+	
+	public MOS6502(){
+		A=0;
+		X=0;
+		Y=0;
+		SP=0;
+		PC=0;
+	}
 }
